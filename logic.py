@@ -31,3 +31,6 @@ if username == "":
     print(f"the username is {default}")
 else:
     print(f"the username is {username}")
+# step 9
+print(f"the results of True and False or True is: {True and False or True}")
+print(f"the order of True and False or True: first check True and False: {True and False}. then check or True: {True}. and if one of that is true so the result is true")
