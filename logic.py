@@ -27,10 +27,7 @@ print(f"the result of none or 42 in bool: {x == True or y == True}")
 # step 8
 username = ""
 default = "guest"
-if username == "":
-    print(f"the username is {default}")
-else:
-    print(f"the username is {username}")
+print(username or default)
 # step 9
 print(f"the results of True and False or True is: {True and False or True}")
 print(f"the order of True and False or True: first check True and False: {True and False}. then check or True: {True}. and if one of that is true so the result is true")
@@ -47,10 +44,12 @@ print(f"the door can open or not: {has_key or admin_override and door_locked}")
 # step 2
 message = "" 
 backup_message = "No message found"
-if message == "":
-    print(f"the message use backup_message: {backup_message}")
-else:
-    print(message)
+print(message or backup_message)
 # step 3
 x = None
 print("x is None This is useful for cases where a user is defined as empty.")
+# step 4
+a = 0
+b = "ready"
+c = 42
+print(f"{a  or c}")
