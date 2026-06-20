@@ -44,3 +44,10 @@ door_locked = True
 has_key = False
 admin_override = True
 print(f"the door can open or not: {has_key or admin_override and door_locked}")
+# step 2
+message = "" 
+backup_message = "No message found"
+if message == "":
+    print(f"the message use backup_message: {backup_message}")
+else:
+    print(message)
