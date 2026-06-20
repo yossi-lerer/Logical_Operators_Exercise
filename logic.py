@@ -52,4 +52,7 @@ print("x is None This is useful for cases where a user is defined as empty.")
 a = 0
 b = "ready"
 c = 42
-print(f"{a  or c}")
+print(f"The test performed on a or b or c checks the first one that is True and returns it: {a or b or c}")
+# step 5
+score = 50
+print("pass" if score >= 60 else "fail")
