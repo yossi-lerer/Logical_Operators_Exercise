@@ -51,3 +51,6 @@ if message == "":
     print(f"the message use backup_message: {backup_message}")
 else:
     print(message)
+# step 3
+x = None
+print("x is None This is useful for cases where a user is defined as empty.")
