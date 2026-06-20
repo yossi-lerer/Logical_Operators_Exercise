@@ -15,3 +15,8 @@ print(f"the person can enter {age >= 18 and has_id == True}")
 # step 5
 level = 3
 print(f"the level is between 1 and 5 {level >= 3 and level <= 5}")
+# step 6
+a = 0
+b = "hello"
+c = ""
+print(f"bool: the 0 is {bool(a)}. the hello is {bool(b)}. the empty string is {bool(c)}")
