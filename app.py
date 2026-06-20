@@ -20,3 +20,7 @@ a = 0
 b = "hello"
 c = ""
 print(f"bool: the 0 is {bool(a)}. the hello is {bool(b)}. the empty string is {bool(c)}")
+# step 7
+x = None
+y = 42
+print(f"the result of none or 42 in bool: {x == True or y == True}")
