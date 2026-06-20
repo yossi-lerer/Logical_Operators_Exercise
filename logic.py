@@ -24,3 +24,10 @@ print(f"bool: the 0 is {bool(a)}. the hello is {bool(b)}. the empty string is {b
 x = None
 y = 42
 print(f"the result of none or 42 in bool: {x == True or y == True}")
+# step 8
+username = ""
+default = "guest"
+if username == "":
+    print(f"the username is {default}")
+else:
+    print(f"the username is {username}")
