@@ -34,3 +34,6 @@ else:
 # step 9
 print(f"the results of True and False or True is: {True and False or True}")
 print(f"the order of True and False or True: first check True and False: {True and False}. then check or True: {True}. and if one of that is true so the result is true")
+# step 10
+score = 75
+print(f"the score is {score} so is between 60 and 100 inclusive: {60 <= score <= 100}")
