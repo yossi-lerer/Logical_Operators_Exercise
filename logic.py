@@ -37,3 +37,10 @@ print(f"the order of True and False or True: first check True and False: {True a
 # step 10
 score = 75
 print(f"the score is {score} so is between 60 and 100 inclusive: {60 <= score <= 100}")
+
+# part 2
+# step 1
+door_locked = True
+has_key = False
+admin_override = True
+print(f"the door can open or not: {has_key or admin_override and door_locked}")
